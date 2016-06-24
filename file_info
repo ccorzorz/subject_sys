@@ -1,0 +1,15 @@
+目录说明:
+
+|____bin    执行目录,程序入口
+| |____init_all_data.py     初始化数据库
+| |____manage.py    管理员入口
+| |____student.py   学生入口
+|____conf   配置文件目录
+| |____setting.py   配置文件
+|____core   主程序目录
+| |____manage_sys.py    管理主程序
+| |____student.py       学生主程序
+|____data   数据库目录
+| |____manage.pickle    教师对象数据
+| |____student.pickle   学生对象数据
+| |____subject.pickle   课程对象数据
